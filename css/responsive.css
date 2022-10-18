@@ -1,0 +1,276 @@
+/* team start  */
+
+@media only screen and ( min-width:320px) {
+    .our-team-area .our-team-card .our-team-img ul {
+        position: absolute;
+        bottom: -70px;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+        padding: 0;
+    }
+    .our-team-area .our-team-card .our-team-img .team-icons i {
+        height: 35px;
+        width: 35px;
+        color: var(--white);
+        background-color: var(--icon);
+        border-radius: 50%;
+        font-size: 15px;
+        line-height: 35px;
+        text-align: center;
+        margin: 5px 3px;
+    }
+    .our-team-area .our-team-card .our-team-img:hover ul {
+        bottom: 0px;
+    }
+    .our-team-area .our-team-card .our-team-content {
+        margin: 10px 0;
+    }
+    .our-team-area .our-team-card .our-team-content a {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .our-team-area .our-team-card .our-team-content p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and ( min-width:1023px) {
+    .our-team-area .our-team-card {
+        width: 100%;
+        border: .5px solid var(--footer-text);
+        box-shadow: 0 0 3px 0px transparent;
+        border-radius: 4px;
+        text-align: center;
+    }
+    .our-team-area .our-team-card:hover {
+        box-shadow: 0 0 16px 0px var(--footer-text);
+    }
+    .our-team-area .our-team-card .our-team-img {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .our-team-area .our-team-card .our-team-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .our-team-area .our-team-card .our-team-img .overly {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: var(--black);
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+    .our-team-area .our-team-card .our-team-img:hover .overly {
+        opacity: 60%;
+    }
+    .our-team-area .our-team-card .our-team-img .team-icons i {
+        height: 40px;
+        width: 40px;
+        color: var(--white);
+        background-color: var(--icon);
+        border-radius: 50%;
+        font-size: 15px;
+        line-height: 40px;
+        text-align: center;
+        margin: 5px 4px;
+    }
+    .our-team-area .our-team-card .our-team-img ul {
+        width: 100%;
+        bottom: -70px;
+        position: absolute;
+        z-index: 1000;
+    }
+    .our-team-area .our-team-card .our-team-img:hover ul {
+        bottom: 0px;
+    }
+    .our-team-area .our-team-card .our-team-content {
+        margin: 15px 0;
+    }
+    .our-team-area .our-team-card .our-team-content a {
+        color: var(--black);
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .our-team-area .our-team-card .our-team-content a:hover {
+        color: var(--cyan-color);
+    }
+    .our-team-area .our-team-card .our-team-content p {
+        font-size: 18px;
+    }
+}
+
+
+/* team end  */
+
+
+/* are you ready start  */
+
+@media only screen and ( min-width:320px) {
+    .are-you-area {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .are-you-area .are-you-content h2 {
+        display: block;
+        font-size: 22px;
+    }
+    .are-you-area .are-you-content h3 {
+        display: none;
+        color: var(--white);
+        font-size: 25px;
+    }
+    .are-you-btn .btn {
+        width: 100px;
+        display: inline-block;
+        padding: 8px 8px;
+        margin: 20px 10px;
+    }
+    .are-you-area .are-you-btn-1 {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: var(--white);
+        background-color: var(--cyan-color);
+        border: 1.5px solid var(--cyan-color);
+    }
+    .are-you-area .are-you-btn {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and ( min-width:767px) {
+    .are-you-area {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    .are-you-area .are-you-content h2 {
+        display: block;
+        color: var(--white);
+        font-size: 25px;
+    }
+    .are-you-area .are-you-content h3 {
+        display: block;
+        color: var(--white);
+        font-size: 25px;
+    }
+    .are-you-btn .btn {
+        width: 150px;
+        color: var(--white);
+        border: 1.5px solid var(--white);
+        border-radius: 4px;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 8px;
+        margin: 20px 10px;
+    }
+    .are-you-area .are-you-btn {
+        display: inline-block;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        color: var(--white);
+    }
+    .are-you-area .are-you-btn-1 {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        color: var(--white);
+        background-color: var(--cyan-color);
+        border: 1.5px solid var(--cyan-color);
+    }
+}
+
+
+/* are yor ready end  */
+
+
+/* footer  start */
+
+@media only screen and ( min-width:320px) {
+    .footer-area .footer-top {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        border-bottom: 2px solid #ffffff1a;
+    }
+    .footer-area .copyright {
+        position: relative;
+        width: 100%;
+        line-height: 50px;
+    }
+    .footer-area .copyright p,
+    a {
+        color: var(--footer-text);
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and ( min-width:767px) {
+    .footer-area .footer-top {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        border-bottom: 2px solid #ffffff1a;
+    }
+    .footer-area .copyright {
+        position: relative;
+        width: 100%;
+        line-height: 60px;
+    }
+    .footer-area .copyright p,
+    a {
+        color: var(--footer-text);
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and ( min-width:1023px) {
+    .footer-area .footer-top {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        border-bottom: 2px solid #ffffff1a;
+    }
+    .footer-area .copyright {
+        position: relative;
+        width: 100%;
+        line-height: 80px;
+    }
+    .footer-area .copyright p,
+    a {
+        color: var(--footer-text);
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+
+/* footer  end */
